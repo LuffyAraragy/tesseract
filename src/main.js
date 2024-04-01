@@ -1,4 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import tesseractPlugin from '@/assets/utils/tesseractPlugin.js'
+
+createApp(App).use(tesseractPlugin).mount('#app')
